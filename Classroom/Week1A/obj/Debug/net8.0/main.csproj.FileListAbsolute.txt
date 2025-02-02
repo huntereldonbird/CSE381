@@ -1,0 +1,14 @@
+/home/eldon/Documents/GitHub/cse381-course/Classroom/Week1A/bin/Debug/net8.0/main
+/home/eldon/Documents/GitHub/cse381-course/Classroom/Week1A/bin/Debug/net8.0/main.deps.json
+/home/eldon/Documents/GitHub/cse381-course/Classroom/Week1A/bin/Debug/net8.0/main.runtimeconfig.json
+/home/eldon/Documents/GitHub/cse381-course/Classroom/Week1A/bin/Debug/net8.0/main.dll
+/home/eldon/Documents/GitHub/cse381-course/Classroom/Week1A/bin/Debug/net8.0/main.pdb
+/home/eldon/Documents/GitHub/cse381-course/Classroom/Week1A/obj/Debug/net8.0/main.GeneratedMSBuildEditorConfig.editorconfig
+/home/eldon/Documents/GitHub/cse381-course/Classroom/Week1A/obj/Debug/net8.0/main.AssemblyInfoInputs.cache
+/home/eldon/Documents/GitHub/cse381-course/Classroom/Week1A/obj/Debug/net8.0/main.AssemblyInfo.cs
+/home/eldon/Documents/GitHub/cse381-course/Classroom/Week1A/obj/Debug/net8.0/main.csproj.CoreCompileInputs.cache
+/home/eldon/Documents/GitHub/cse381-course/Classroom/Week1A/obj/Debug/net8.0/main.dll
+/home/eldon/Documents/GitHub/cse381-course/Classroom/Week1A/obj/Debug/net8.0/refint/main.dll
+/home/eldon/Documents/GitHub/cse381-course/Classroom/Week1A/obj/Debug/net8.0/main.pdb
+/home/eldon/Documents/GitHub/cse381-course/Classroom/Week1A/obj/Debug/net8.0/main.genruntimeconfig.cache
+/home/eldon/Documents/GitHub/cse381-course/Classroom/Week1A/obj/Debug/net8.0/ref/main.dll

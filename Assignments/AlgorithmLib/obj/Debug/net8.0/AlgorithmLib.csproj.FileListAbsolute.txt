@@ -1,0 +1,11 @@
+/home/eldon/Documents/GitHub/cse381-course/Assignments/AlgorithmLib/bin/Debug/net8.0/AlgorithmLib.deps.json
+/home/eldon/Documents/GitHub/cse381-course/Assignments/AlgorithmLib/bin/Debug/net8.0/AlgorithmLib.dll
+/home/eldon/Documents/GitHub/cse381-course/Assignments/AlgorithmLib/bin/Debug/net8.0/AlgorithmLib.pdb
+/home/eldon/Documents/GitHub/cse381-course/Assignments/AlgorithmLib/obj/Debug/net8.0/AlgorithmLib.GeneratedMSBuildEditorConfig.editorconfig
+/home/eldon/Documents/GitHub/cse381-course/Assignments/AlgorithmLib/obj/Debug/net8.0/AlgorithmLib.AssemblyInfoInputs.cache
+/home/eldon/Documents/GitHub/cse381-course/Assignments/AlgorithmLib/obj/Debug/net8.0/AlgorithmLib.AssemblyInfo.cs
+/home/eldon/Documents/GitHub/cse381-course/Assignments/AlgorithmLib/obj/Debug/net8.0/AlgorithmLib.csproj.CoreCompileInputs.cache
+/home/eldon/Documents/GitHub/cse381-course/Assignments/AlgorithmLib/obj/Debug/net8.0/AlgorithmLib.dll
+/home/eldon/Documents/GitHub/cse381-course/Assignments/AlgorithmLib/obj/Debug/net8.0/refint/AlgorithmLib.dll
+/home/eldon/Documents/GitHub/cse381-course/Assignments/AlgorithmLib/obj/Debug/net8.0/AlgorithmLib.pdb
+/home/eldon/Documents/GitHub/cse381-course/Assignments/AlgorithmLib/obj/Debug/net8.0/ref/AlgorithmLib.dll
