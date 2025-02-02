@@ -319,10 +319,7 @@
       "System.Reflection.Metadata/1.6.0": {},
       "AlgorithmLib/1.0.0": {
         "runtime": {
-          "AlgorithmLib.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "AlgorithmLib.dll": {}
         }
       }
     }

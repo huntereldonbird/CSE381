@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/eldon/Documents/GitHub/cse381-course/Assignments/AlgorithmLib/AlgorithmLib.csproj": {}
+    "D:\\Projects\\My software\\CSE381\\Assignments\\AlgorithmLib\\AlgorithmLib.csproj": {}
   },
   "projects": {
-    "/home/eldon/Documents/GitHub/cse381-course/Assignments/AlgorithmLib/AlgorithmLib.csproj": {
+    "D:\\Projects\\My software\\CSE381\\Assignments\\AlgorithmLib\\AlgorithmLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/eldon/Documents/GitHub/cse381-course/Assignments/AlgorithmLib/AlgorithmLib.csproj",
+        "projectUniqueName": "D:\\Projects\\My software\\CSE381\\Assignments\\AlgorithmLib\\AlgorithmLib.csproj",
         "projectName": "AlgorithmLib",
-        "projectPath": "/home/eldon/Documents/GitHub/cse381-course/Assignments/AlgorithmLib/AlgorithmLib.csproj",
-        "packagesPath": "/home/eldon/.nuget/packages/",
-        "outputPath": "/home/eldon/Documents/GitHub/cse381-course/Assignments/AlgorithmLib/obj/",
+        "projectPath": "D:\\Projects\\My software\\CSE381\\Assignments\\AlgorithmLib\\AlgorithmLib.csproj",
+        "packagesPath": "C:\\Users\\Birdh\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\My software\\CSE381\\Assignments\\AlgorithmLib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/eldon/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Birdh\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/eldon/.dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

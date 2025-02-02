@@ -998,19 +998,19 @@
     ]
   },
   "packageFolders": {
-    "/home/eldon/.nuget/packages/": {}
+    "C:\\Users\\Birdh\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/eldon/Documents/GitHub/cse381-course/Assignments/AlgorithmLibTest/AlgorithmLibTest.csproj",
+      "projectUniqueName": "D:\\Projects\\My software\\CSE381\\Assignments\\AlgorithmLibTest\\AlgorithmLibTest.csproj",
       "projectName": "AlgorithmLibTest",
-      "projectPath": "/home/eldon/Documents/GitHub/cse381-course/Assignments/AlgorithmLibTest/AlgorithmLibTest.csproj",
-      "packagesPath": "/home/eldon/.nuget/packages/",
-      "outputPath": "/home/eldon/Documents/GitHub/cse381-course/Assignments/AlgorithmLibTest/obj/",
+      "projectPath": "D:\\Projects\\My software\\CSE381\\Assignments\\AlgorithmLibTest\\AlgorithmLibTest.csproj",
+      "packagesPath": "C:\\Users\\Birdh\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\My software\\CSE381\\Assignments\\AlgorithmLibTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/eldon/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Birdh\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -1022,8 +1022,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/eldon/Documents/GitHub/cse381-course/Assignments/AlgorithmLib/AlgorithmLib.csproj": {
-              "projectPath": "/home/eldon/Documents/GitHub/cse381-course/Assignments/AlgorithmLib/AlgorithmLib.csproj"
+            "D:\\Projects\\My software\\CSE381\\Assignments\\AlgorithmLib\\AlgorithmLib.csproj": {
+              "projectPath": "D:\\Projects\\My software\\CSE381\\Assignments\\AlgorithmLib\\AlgorithmLib.csproj"
             }
           }
         }
@@ -1080,7 +1080,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/eldon/.dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

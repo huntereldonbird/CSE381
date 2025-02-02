@@ -43,7 +43,7 @@ public static class QuickSort
             int p = Partition(data, first, last);
 
 
-            _Sort(data, first, p - 1);
+            _Sort(data, first, p-1);
             _Sort(data, p + 1, last);
 
         }  
@@ -69,23 +69,20 @@ public static class QuickSort
 
 
         var pivot = data[last];
-        int l = 0;
-        if (first > 0) {
-            l = first - 1;
-        }
+        int l = first - 1;
 
-
-        for (int i = first; i <= last; i++) {
+        for (int i = first; i <= last - 1; i++) {
 
             if (data[i].CompareTo(pivot) <= 0) {
 
-                i++;
+                l++;
                 (data[l], data[i]) = (data[i], data[l]);
 
             }
+
         }
 
-        (data[l], data[last]) = (data[last], data[l]);
+        (data[l+1], data[last]) = (data[last], data[l+1]);
 
         return l + 1;
     }
