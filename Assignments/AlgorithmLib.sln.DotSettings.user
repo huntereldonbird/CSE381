@@ -1,5 +1,18 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AAssert_002Ecs_002Fl_003AC_0021_003FUsers_003FBirdh_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FDecompilerCache_003Fdecompiler_003Fd6eacc30f73c491c94ae7625a65c78ac77a00_003Fbd_003Fac15af6e_003FAssert_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AThrowHelper_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002E_002E_003F_002E_002E_003F_002Evar_003Fapp_003Fcom_002Ejetbrains_002ERider_003Fconfig_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003F6780d13016c376c4491c5618b257d84da7eacf747ed2719783e775546b79b_003FThrowHelper_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e800c034_002Dccb2_002D4cfb_002D937a_002D1de2b64ea844/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from BetterLinearSearchTest.cs" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;ProjectFile&gt;BF3280B9-8231-42EE-A924-D918DC936A11/f:QuickSortTest.cs&lt;/ProjectFile&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=70d3b0f7_002D70f7_002D49ce_002D9d0f_002D51437b47aa33/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Session" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;ProjectFile&gt;BF3280B9-8231-42EE-A924-D918DC936A11/f:QuickSortTest.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;BF3280B9-8231-42EE-A924-D918DC936A11/f:DAGShortestPathTest.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;BF3280B9-8231-42EE-A924-D918DC936A11/f:DijkstraShortestPathTest.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;BF3280B9-8231-42EE-A924-D918DC936A11/f:BellmanFordShortestPathTest.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;BF3280B9-8231-42EE-A924-D918DC936A11/f:StringMatcherTest.cs&lt;/ProjectFile&gt;&#xD;
+  &lt;/Or&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e800c034_002Dccb2_002D4cfb_002D937a_002D1de2b64ea844/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from BetterLinearSearchTest.cs" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;ProjectFile&gt;BF3280B9-8231-42EE-A924-D918DC936A11/f:QuickSortTest.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;BF3280B9-8231-42EE-A924-D918DC936A11/f:DAGShortestPathTest.cs&lt;/ProjectFile&gt;&#xD;
+  &lt;/Or&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
