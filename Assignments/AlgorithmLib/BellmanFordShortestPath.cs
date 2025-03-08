@@ -23,8 +23,73 @@ public static class BellmanFordShortestPath
     *  Note: If a negative cycle exists, then the function must return
     *  a tuple of two empty lists. 
     */
-    public static (List<int>, List<int>) ShortestPath(Graph g, int startVertex)
-    {
-        return (new List<int>(), new List<int>());
+    public static (List<int>, List<int>) ShortestPath(Graph g, int startVertex) {
+
+        int[] distances = new int[g.Size()];
+        int[] previous = new int[g.Size()];
+        for (int i = 0; i < g.Size(); i++) {
+
+            distances[i] = Graph.INF;
+            previous[i] = Graph.INF;
+
+        }
+
+        distances[startVertex] = 0;
+
+        for (int i = 0; i < g.Size(); i++) {
+            for (int j = 0; j < g.Size(); j++) {
+
+
+                if (distances[j] == Graph.INF && j != startVertex) {
+                    continue;
+                }
+
+                foreach (var edge in g.Edges(j)) {
+
+                    int v = edge.DestId;
+                    int weight = edge.Weight;
+
+                    if (distances[j] != Graph.INF && distances[j] + weight < distances[v]) {
+
+                        distances[v] = distances[j] + weight;
+                        previous[v] = j;
+
+                    }
+
+                }
+            }
+
+        }
+
+
+        // the internet told me to add this
+
+        bool negative = false;
+
+        for (int i = 0; i < g.Size(); i++) {
+
+            if (distances[i] == Graph.INF) {
+                continue;
+            }
+
+            foreach (var edge in g.Edges(i)) {
+
+                int v = edge.DestId;
+                int weight = edge.Weight;
+
+                if (distances[i] != Graph.INF && distances[i] + weight < distances[v]) {
+                    negative = true;
+                    break;
+                }
+            }
+
+            if (negative) {
+                return (new List<int>(), new List<int>());
+            }
+
+        }
+
+
+        return (distances.ToList(), previous.ToList());
     } 
 }
