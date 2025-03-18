@@ -24,13 +24,14 @@ public class RSA
      */
     public static (BigInteger, BigInteger, BigInteger) Euclid(BigInteger a, BigInteger b) {
 
+
+        // base case
         if (b == 0) {
             return (a, 1, 0);
         }
 
+        //find the gcd, then pass it through one more time to both check ^, then we should return after...
         var (gcd, out1, out2) = Euclid(b, a % b);
-
-
         return (gcd, out2, (out1 - (a / b) * out2));
 
     }
@@ -46,17 +47,19 @@ public class RSA
      */
     public static BigInteger ModularExponentiation(BigInteger x, BigInteger y, BigInteger n) {
 
+
+        // base case
         if (y == 0) {
             return 1;
         }
-
+        // find the exponential of the function, if it is even..(y % 2 = 0), then we should take that factor(2), out
         if (y % 2 == 0) {
             var z = ModularExponentiation(x, y/2, n);
-            return ((BigInteger.Pow(z, 2) % n) + n % n);
+            return (z * z) % n;
         }
         else {
             var z = ModularExponentiation(x, y -1, n);
-            return BigInteger.Pow(z, 2) * x;
+            return (x * z) % n;
         }
 
     }
@@ -74,25 +77,17 @@ public class RSA
      */
     public static BigInteger GeneratePrivateKey(BigInteger p, BigInteger q, BigInteger e) {
 
-        // var phi = (p-1) * (q - 1);
-        // var i = Euclid(e, phi);
-        //
-        // return ((i.Item2 % phi) + phi % phi); // correct way to mod for in c# i guess?
+        // we are looking for teh private key that works for e*d===1
 
-        var n = p * q;
+
         var phi = (p - 1) * (q - 1);
 
-        for (int i = 0; i < e; i++) {
+        // get the gcd
+        var (gcd, d, _) = Euclid(e, phi);
 
-            if (Euclid(e, phi).Item1 == 1) {
-                break;
-            }
+        d = ((d % phi) + phi) % phi;
 
-
-        }
-
-
-
+        return d;
 
     }
 
@@ -106,19 +101,7 @@ public class RSA
      *     encrypted value
      */
     public static BigInteger Encrypt(BigInteger value, BigInteger e, BigInteger n) {
-        //return (((BigInteger)Math.Pow((double)value, (double)e) % n) + n % n);
-
-        int res = 1;
-        value = value % n;
-
-        var expo;
-
-        while expo > 1
-        {
-
-        }
-
-
+        return ModularExponentiation(value, e, n);
     }
 
     /* Decrypt a value using the public key n and private key d
@@ -131,8 +114,7 @@ public class RSA
      *     encrypted value
      */
     public static BigInteger Decrypt(BigInteger value, BigInteger d, BigInteger n) {
-        return (((BigInteger)Math.Pow((double)value, (double)d) % n) + n % n);
-
+        return ModularExponentiation(value, d, n);
     }
 
 

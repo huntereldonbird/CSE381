@@ -36,9 +36,20 @@ public static class HuffmanTree
      */
     public static Dictionary<char,int> Profile(String text)
     {
-        return new Dictionary<char, int>();
+        Dictionary<char, int> profile = new Dictionary<char, int>();
+
+        for (int i = 0; i < text.Length; i++) {
+
+            if (profile.ContainsKey(text[i])) {
+                profile[text[i]]++;
+            }
+            else {
+                profile.Add(text[i], 1);
+            }
+        }
+        return profile;
     }
-    
+
     /* Create a huffman tree for all letters in the profile.  Use
      * a Priority Queue (code already provided) in your implementation.
      *
@@ -47,9 +58,41 @@ public static class HuffmanTree
      *  Outputs:
      *     The root node of a huffman tree
      */
-    public static Node BuildTree(Dictionary<char, int> profile)
-    {
-        return new Node();
+    public static Node BuildTree(Dictionary<char, int> profile) {
+
+
+        // i origionally tried to use the profiles but that didnt work, so I created the nodes beforehand
+        List<Node> nodes = new List<Node>();
+
+        foreach (var n in profile) {
+            nodes.Add(new Node {
+                Letter = n.Key,
+                Count = n.Value,
+                Left = null,
+                Right = null
+            });
+        }
+
+
+        while (nodes.Count > 1) {
+
+            nodes = nodes.OrderBy(n => n.Count).ThenByDescending(n => n.Letter).ToList();
+
+            Node left = nodes[0];
+            Node right = nodes[1];
+            nodes.RemoveAt(0);
+            nodes.RemoveAt(0);
+
+
+            Node new_node = new Node {
+                Letter = '\0',
+                Count = left.Count + right.Count,
+                Left = left,
+                Right = right
+            };
+            nodes.Add(new_node);
+        }
+        return nodes[0];
     }
 
     /* Create an encoding map from the huffman tree
@@ -62,9 +105,11 @@ public static class HuffmanTree
      */
     public static Dictionary<char, string> CreateEncodingMap(Node root)
     {
-        return new Dictionary<char, string>();
+        Dictionary<char, string> m = new Dictionary<char, string>();
+        _CreateEncodingMap(root, "", m);
+        return m;
     }
-    
+
     /* Recursively visit each node in the Huffman Tree
      * looking for leaf nodes which contain letters.  Keep
      * track of the huffman code by adding 0 when going left
@@ -79,6 +124,21 @@ public static class HuffmanTree
      */
     public static void _CreateEncodingMap(Node node, string code, Dictionary<char, string> map)
     {
+
+        if (node.Left == null && node.Right == null && node.Letter == '\0') {
+            map[node.Letter] = code;
+            return;
+
+        }
+
+        if (node.Left != null) {
+            _CreateEncodingMap(node.Left, code + "0", map);
+        }
+        if (node.Right != null) {
+            _CreateEncodingMap(node.Right, code + "1", map);
+        }
+
+
     }
 
     /* Encode a string with the encoding map.
@@ -92,7 +152,13 @@ public static class HuffmanTree
      */
     public static string Encode(string text, Dictionary<char, string> map)
     {
-        return "";
+        string result = "";
+
+        for (int i = 0; i < text.Length; i++) {
+            result += map[text[i]];
+        }
+
+        return result;
     }
 
     /* Decode a string with the huffman tree

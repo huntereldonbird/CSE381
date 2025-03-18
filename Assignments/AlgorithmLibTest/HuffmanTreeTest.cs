@@ -16,9 +16,11 @@ namespace AlgorithmLibTest;
 [TestFixture]
 public class HuffmanTreeTest
 {
-    
+
+
+
     [Test]
-    public void Test1_Profile()
+    public void Test2_Profile()
     {
         var text = "the rain in spain stays mainly in the plain";
         var profile = HuffmanTree.Profile(text);
@@ -38,7 +40,21 @@ public class HuffmanTreeTest
         Assert.That(profile.Count, Is.EqualTo(13));
         Assert.Pass();
     }
-    
+
+    [Test]
+    public void personal_test()
+    {
+        var text = "aabbbccccdde";
+        var profile = HuffmanTree.Profile(text);
+        Assert.That(profile['a'], Is.EqualTo(2));
+        Assert.That(profile['b'], Is.EqualTo(3));
+        Assert.That(profile['c'], Is.EqualTo(4));
+        Assert.That(profile['d'], Is.EqualTo(2));
+        Assert.That(profile['e'], Is.EqualTo(1));
+        Assert.That(profile.Count, Is.EqualTo(5));
+        Assert.Pass();
+    }
+
     [Test]
     public void Test2_BuildTree()
     {
@@ -69,10 +85,10 @@ public class HuffmanTreeTest
         Assert.That(tree.Right.Right.Letter, Is.EqualTo('c'));
         Assert.That(tree.Right.Right.Left, Is.EqualTo(null));
         Assert.That(tree.Right.Right.Right, Is.EqualTo(null));
-        
+
         Assert.Pass();
     }
-    
+
     [Test]
     public void Test3_CreateEncodingMap()
     {

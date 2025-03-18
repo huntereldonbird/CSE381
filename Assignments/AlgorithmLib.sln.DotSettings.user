@@ -8,11 +8,25 @@
     &lt;ProjectFile&gt;BF3280B9-8231-42EE-A924-D918DC936A11/f:DijkstraShortestPathTest.cs&lt;/ProjectFile&gt;&#xD;
     &lt;ProjectFile&gt;BF3280B9-8231-42EE-A924-D918DC936A11/f:BellmanFordShortestPathTest.cs&lt;/ProjectFile&gt;&#xD;
     &lt;ProjectFile&gt;BF3280B9-8231-42EE-A924-D918DC936A11/f:StringMatcherTest.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;BF3280B9-8231-42EE-A924-D918DC936A11/f:RSATest.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;BF3280B9-8231-42EE-A924-D918DC936A11/f:HuffmanTreeTest.cs&lt;/ProjectFile&gt;&#xD;
+  &lt;/Or&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ca310a35_002D3d4b_002D4985_002D96de_002D33c4d22de3e0/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Session #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;ProjectFile&gt;BF3280B9-8231-42EE-A924-D918DC936A11/f:QuickSortTest.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;BF3280B9-8231-42EE-A924-D918DC936A11/f:DAGShortestPathTest.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;BF3280B9-8231-42EE-A924-D918DC936A11/f:DijkstraShortestPathTest.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;BF3280B9-8231-42EE-A924-D918DC936A11/f:BellmanFordShortestPathTest.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;BF3280B9-8231-42EE-A924-D918DC936A11/f:StringMatcherTest.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;BF3280B9-8231-42EE-A924-D918DC936A11/f:RSATest.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;BF3280B9-8231-42EE-A924-D918DC936A11/f:HuffmanTreeTest.cs&lt;/ProjectFile&gt;&#xD;
   &lt;/Or&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e800c034_002Dccb2_002D4cfb_002D937a_002D1de2b64ea844/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from BetterLinearSearchTest.cs" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;Or&gt;&#xD;
     &lt;ProjectFile&gt;BF3280B9-8231-42EE-A924-D918DC936A11/f:QuickSortTest.cs&lt;/ProjectFile&gt;&#xD;
     &lt;ProjectFile&gt;BF3280B9-8231-42EE-A924-D918DC936A11/f:DAGShortestPathTest.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;BF3280B9-8231-42EE-A924-D918DC936A11/f:HuffmanTreeTest.cs&lt;/ProjectFile&gt;&#xD;
   &lt;/Or&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
